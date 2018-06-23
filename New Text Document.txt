@@ -1,0 +1,10 @@
+https://github.com/SeleniumHQ/selenium/issues/3278
+
+https://stackoverflow.com/questions/47656524/how-to-use-selenium-html-runner-with-docker
+
+https://medium.com/@yiquanzhou/run-selenium-ui-tests-in-docker-container-78be98e1b52d
+
+
+java -Dwebdriver="~/Downloads/geckodriver" -jar selenium-html-runner-3.4.0.jar -htmlSuite "*firefox" "http://127.0.0.1:1990/confluence" "~/Desktop/selenium/Small-Test" "~/Desktop/test_results.html"
+
+ 
