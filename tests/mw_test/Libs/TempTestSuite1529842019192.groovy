@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/browse_test')
+suiteProperties.put('id', 'Test Suites/login_test')
 
-suiteProperties.put('name', 'browse_test')
+suiteProperties.put('name', 'login_test')
 
 suiteProperties.put('description', '')
  
@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\xampp\\htdocs\\selenium-tests\\tests\\mw_test\\Reports\\browse_test\\20180624_141313\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\xampp\\htdocs\\selenium-tests\\tests\\mw_test\\Reports\\login_test\\20180624_150659\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/browse_test', suiteProperties, [new TestCaseBinding('Test Cases/browse test', 'Test Cases/browse test',  null)])
+TestCaseMain.startTestSuite('Test Suites/login_test', suiteProperties, [new TestCaseBinding('Test Cases/logged_in_user/test_login', 'Test Cases/logged_in_user/test_login',  null)])
