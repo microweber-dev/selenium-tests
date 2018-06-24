@@ -23,6 +23,9 @@ import com.thoughtworks.selenium.Selenium as Selenium
 import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
 import org.openqa.selenium.WebDriver as WebDriver
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
+import org.openqa.selenium.Keys as Keys
+
+  
 import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
@@ -103,7 +106,7 @@ selenium.focus('id=content-title-field')
 
 selenium.type('id=content-title-field', 'my title')
 
-//selenium.sendKeys('id=content-title-field', 'goes here')
+ selenium.sendKeys('id=content-title-field', 'goes here')
 
 selenium.click('id=content-title-field')
 
@@ -119,7 +122,8 @@ selenium.clickAt('xpath=(//option[@value=\'text-page.php\'])[1]', '')
 
 selenium.fireEvent('xpath=(//select[@name=\'preview_layout_file\'])[1]', 'change')
 
-selenium.click('xpath=(//button[@type=\'submit\'])[1]')
+//selenium.click('xpath=(//button[@type=\'submit\'])[1]')
+selenium.clickAt('xpath=(//button[@type=\'submit\'])[1]')
 
 for (int second = 0; ; second++) {
     if (second >= 60) {
