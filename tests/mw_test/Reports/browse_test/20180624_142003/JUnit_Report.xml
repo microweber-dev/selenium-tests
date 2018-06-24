@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="browse_test" time="20" tests="2" failures="0" errors="0">
+   <testsuite name="browse_test" tests="2" failures="0" errors="0" time="20" timestamp="2018-06-24 14:20:05" hostname="user - mw" id="Test Suites/browse_test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\xampp\\htdocs\\selenium-tests\\tests\\mw_test\\Reports\\browse_test\\20180624_142003"/>
+         <property name="logFiles" value="C:\\xampp\\htdocs\\selenium-tests\\tests\\mw_test\\Reports\\browse_test\\20180624_142003\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - mw"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="3325087b-a662-44eb-a58f-ca010c48507d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/browse test" classname="Test Cases/browse test" status="PASSED">
+         <system-out><![CDATA[2018-06-24 14:20:05 - [TEST_CASE][PASSED] - Test Cases/browse test: Test Cases/browse test
+
+2018-06-24 14:20:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-24 14:20:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-24 14:20:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-24 14:20:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-24 14:20:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-24 14:20:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://slave01.ci.microweber.com:8080/' successfully
+
+2018-06-24 14:20:14 - [MESSAGE][PASSED] - Navigate to 'http://slave01.ci.microweber.com:8080/' successfully
+
+2018-06-24 14:20:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home/a_Shop' is clicked on
+
+2018-06-24 14:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Shop' is clicked on
+
+2018-06-24 14:20:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop/a_Blog' is clicked on
+
+2018-06-24 14:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop/a_Blog' is clicked on
+
+2018-06-24 14:20:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Blog/a_Gallery' is clicked on
+
+2018-06-24 14:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blog/a_Gallery' is clicked on
+
+2018-06-24 14:20:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-24 14:20:17 - [MESSAGE][PASSED] - Browser is closed
+
+2018-06-24 14:20:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-24 14:20:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add_to_cart" classname="Test Cases/add_to_cart" status="PASSED">
+         <system-out><![CDATA[2018-06-24 14:20:17 - [TEST_CASE][PASSED] - Test Cases/add_to_cart: Test Cases/add_to_cart
+
+2018-06-24 14:20:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-24 14:20:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-24 14:20:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://slave01.ci.microweber.com:8080/' successfully
+
+2018-06-24 14:20:23 - [MESSAGE][PASSED] - Navigate to 'http://slave01.ci.microweber.com:8080/' successfully
+
+2018-06-24 14:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home (1)/a_Shop' is clicked on
+
+2018-06-24 14:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home (1)/a_Shop' is clicked on
+
+2018-06-24 14:20:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop (1)/button_Add to cart' is visible
+
+2018-06-24 14:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-24 14:20:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop (1)/button_Add to cart' is visible
+
+2018-06-24 14:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop (1)/button_Add to cart' is clicked on
+
+2018-06-24 14:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop (1)/button_Add to cart' is clicked on
+
+2018-06-24 14:20:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop (1)/a_Checkout' is visible
+
+2018-06-24 14:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-24 14:20:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop (1)/a_Checkout' is visible
+
+2018-06-24 14:20:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop (1)/a_Checkout' is clicked on
+
+2018-06-24 14:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop (1)/a_Checkout' is clicked on
+
+2018-06-24 14:20:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Microweber/a_icon-trash' is visible
+
+2018-06-24 14:20:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-24 14:20:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Microweber/a_icon-trash' is visible
+
+2018-06-24 14:20:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Microweber/a_icon-trash' is clicked on
+
+2018-06-24 14:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Microweber/a_icon-trash' is clicked on
+
+2018-06-24 14:20:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-24 14:20:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-24 14:20:05 - [TEST_SUITE][PASSED] - browse_test: Test Cases/add_to_cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,7 +4,7 @@
    <name>browse_test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-24T14:13:13</lastRun>
+   <lastRun>2018-06-24T14:20:03</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/browse test</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77588ad2-6748-42ea-a5f7-626f71d80999</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/add_to_cart</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
