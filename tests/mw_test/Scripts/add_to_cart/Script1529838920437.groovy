@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://slave01.ci.microweber.com:8080/')
+WebUI.navigateToUrl(GlobalVariable.test_site_url)
 
 WebUI.click(findTestObject('Page_Home (1)/a_Shop'))
 

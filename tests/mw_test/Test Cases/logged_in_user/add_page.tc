@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7aa97e5c-7354-4178-8a10-43fcb990d194</testCaseGuid>
+   <variable>
+      <defaultValue>'http://localhost/microweber/'</defaultValue>
+      <description></description>
+      <id>83a0acb7-c0be-4c34-84cd-297de038e40e</id>
+      <masked>false</masked>
+      <name>site_url</name>
+   </variable>
+</TestCaseEntity>

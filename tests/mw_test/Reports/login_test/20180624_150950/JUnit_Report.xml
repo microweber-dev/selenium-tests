@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_test" time="16" tests="1" failures="0" errors="0">
+   <testsuite name="login_test" tests="1" failures="0" errors="0" time="16" timestamp="2018-06-24 15:09:51" hostname="user - mw" id="Test Suites/login_test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\xampp\\htdocs\\selenium-tests\\tests\\mw_test\\Reports\\login_test\\20180624_150950"/>
+         <property name="logFiles" value="C:\\xampp\\htdocs\\selenium-tests\\tests\\mw_test\\Reports\\login_test\\20180624_150950\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - mw"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="3edd72d5dae26e4c257efaf43a3d6061"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/logged_in_user/test_login" classname="Test Cases/logged_in_user/test_login" status="PASSED">
+         <system-out><![CDATA[2018-06-24 15:09:51 - [TEST_CASE][PASSED] - Test Cases/logged_in_user/test_login: Test Cases/logged_in_user/test_login
+
+2018-06-24 15:09:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://slave01.ci.microweber.com:8080/admin'
+
+2018-06-24 15:10:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://slave01.ci.microweber.com:8080/admin'
+
+2018-06-24 15:10:00 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-06-24 15:10:00 - [TEST_STEP][PASSED] - Statement - driver.manage().window().maximize(): null
+
+2018-06-24 15:10:00 - [TEST_STEP][PASSED] - Statement - baseUrl = "http://slave01.ci.microweber.com:8080/admin": null
+
+2018-06-24 15:10:00 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-06-24 15:10:00 - [TEST_STEP][PASSED] - Statement - selenium.windowMaximize(): null
+
+2018-06-24 15:10:00 - [TEST_STEP][PASSED] - Statement - selenium.open("http://slave01.ci.microweber.com:8080/admin"): null
+
+2018-06-24 15:10:00 - [TEST_STEP][PASSED] - Statement - For ([second = 0, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, (second++)]): null
+
+2018-06-24 15:10:01 - [TEST_STEP][PASSED] - Statement - If (second >= 60): null
+
+2018-06-24 15:10:01 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-24 15:10:01 - [TEST_STEP][PASSED] - Statement - If (selenium.isVisible("name=username")): null
+
+2018-06-24 15:10:01 - [TEST_STEP][PASSED] - Statement - selenium.click("name=username"): null
+
+2018-06-24 15:10:02 - [TEST_STEP][PASSED] - Statement - selenium.type("name=username", "admin"): null
+
+2018-06-24 15:10:03 - [TEST_STEP][PASSED] - Statement - For ([second = 0, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, (second++)]): null
+
+2018-06-24 15:10:03 - [TEST_STEP][PASSED] - Statement - If (second >= 60): null
+
+2018-06-24 15:10:03 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-24 15:10:03 - [TEST_STEP][PASSED] - Statement - If (selenium.isVisible("name=password")): null
+
+2018-06-24 15:10:03 - [TEST_STEP][PASSED] - Statement - selenium.click("name=password"): null
+
+2018-06-24 15:10:03 - [TEST_STEP][PASSED] - Statement - selenium.type("name=password", "password"): null
+
+2018-06-24 15:10:04 - [TEST_STEP][PASSED] - Statement - selenium.click("//input[@value='Login']"): null
+
+2018-06-24 15:10:04 - [TEST_STEP][PASSED] - Statement - selenium.click("link=Website"): null
+
+2018-06-24 15:10:06 - [TEST_STEP][PASSED] - Statement - For ([second = 0, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, (second++)]): null
+
+2018-06-24 15:10:06 - [TEST_STEP][PASSED] - Statement - If (second >= 60): null
+
+2018-06-24 15:10:06 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-24 15:10:06 - [TEST_STEP][PASSED] - Statement - If (selenium.isVisible("link=Add new page")): null
+
+2018-06-24 15:10:06 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-06-24 15:10:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-06-24 15:10:07 - [TEST_STEP][PASSED] - Statement - If (second >= 60): null
+
+2018-06-24 15:10:07 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-24 15:10:07 - [TEST_STEP][PASSED] - Statement - If (selenium.isVisible("link=Add new page")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-24 15:09:51 - [TEST_SUITE][PASSED] - login_test: Test Cases/logged_in_user/test_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

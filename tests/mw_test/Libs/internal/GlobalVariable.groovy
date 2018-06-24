@@ -13,14 +13,21 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object test_site_url
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['test_site_url' : 'http://slave01.ci.microweber.com'])
+        allVariables.put('local', allVariables['default'] + ['test_site_url' : 'http://localhost/microweber/'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
+        test_site_url = selectedVariables['test_site_url']
         
     }
 }

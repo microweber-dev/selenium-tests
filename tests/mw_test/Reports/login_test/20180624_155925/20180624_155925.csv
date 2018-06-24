@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+login_test,Firefox 60.0,,2018-06-24 15:59:26,2018-06-24 15:59:35,8.737s,ERROR
+,,,,,,
+Test Cases/logged_in_user/test_login,Firefox 60.0,,2018-06-24 15:59:26,2018-06-24 15:59:34,8.302s,ERROR
+openBrowser,Firefox 60.0,,2018-06-24 15:59:26,2018-06-24 15:59:33,6.332s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 60.0,,2018-06-24 15:59:33,2018-06-24 15:59:33,0.016s,PASSED
+Statement - driver.manage().window().maximize(),Firefox 60.0,,2018-06-24 15:59:33,2018-06-24 15:59:33,0.325s,PASSED
+"Statement - baseUrl = ""http://slave01.ci.microweber.com:8080/admin""",Firefox 60.0,,2018-06-24 15:59:33,2018-06-24 15:59:33,0.000s,PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 60.0,,2018-06-24 15:59:33,2018-06-24 15:59:33,0.059s,PASSED
+Statement - selenium.windowMaximize(),Firefox 60.0,,2018-06-24 15:59:33,2018-06-24 15:59:33,0.009s,PASSED
+"Statement - selenium.open(""http://slave01.ci.microweber.com:8080/admin"")",Firefox 60.0,,2018-06-24 15:59:33,2018-06-24 15:59:33,0.296s,PASSED
+"Statement - For ([second = 0, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, (second++)])",Firefox 60.0,,2018-06-24 15:59:33,2018-06-24 15:59:34,0.067s,PASSED
+"Statement - selenium.click(""name=username"")",Firefox 60.0,,2018-06-24 15:59:34,2018-06-24 15:59:34,0.246s,PASSED
+"Statement - selenium.type(""name=username"", ""admin"")",Firefox 60.0,,2018-06-24 15:59:34,2018-06-24 15:59:34,0.076s,PASSED
+"Statement - For ([second = 0, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, (second++)])",Firefox 60.0,,2018-06-24 15:59:34,2018-06-24 15:59:34,0.037s,PASSED
+"Statement - selenium.click(""name=password"")",Firefox 60.0,,2018-06-24 15:59:34,2018-06-24 15:59:34,0.235s,PASSED
+"Statement - selenium.type(""name=password"", ""password"")",Firefox 60.0,,2018-06-24 15:59:34,2018-06-24 15:59:34,0.046s,PASSED
+"Statement - selenium.click(""//input[@value='Login']"")",Firefox 60.0,,2018-06-24 15:59:34,2018-06-24 15:59:34,0.234s,PASSED
+"Statement - selenium.click(""link=Website"")",Firefox 60.0,,2018-06-24 15:59:34,2018-06-24 15:59:34,0.051s,PASSED

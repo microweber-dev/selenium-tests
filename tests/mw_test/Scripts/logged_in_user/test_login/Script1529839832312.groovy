@@ -28,16 +28,19 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('http://slave01.ci.microweber.com:8080/admin')
+WebUI.openBrowser(GlobalVariable.test_site_url+'/admin')
 def driver = DriverFactory.getWebDriver()
 driver.manage().window().maximize();
 
 
-String baseUrl = "http://slave01.ci.microweber.com:8080/admin"
+ 
+
+ 
+String baseUrl = GlobalVariable.test_site_url+'/admin'
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 selenium.windowMaximize()
 
-selenium.open("http://slave01.ci.microweber.com:8080/admin")
+selenium.open(baseUrl)
 for (int second = 0;; second++) {
 	if (second >= 60) fail("timeout");
 	try { if (selenium.isVisible("name=username")) break; } catch (Exception e) {}
@@ -55,6 +58,14 @@ for (int second = 0;; second++) {
 selenium.click("name=password")
 selenium.type("name=password", "password")
 selenium.click("//input[@value='Login']")
+
+
+for (int second = 0;; second++) {
+	if (second >= 60) fail("timeout");
+	try { if (selenium.isVisible("link=Website")) break; } catch (Exception e) {}
+	Thread.sleep(1000);
+}
+
 selenium.click("link=Website")
 for (int second = 0;; second++) {
 	if (second >= 60) fail("timeout");

@@ -4,6 +4,12 @@
    <name>a_Shop</name>
    <tag></tag>
    <elementGuidId>4eec9420-0f3b-4ac8-aeb6-91fa37d2a939</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Shop' or . = 'Shop')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>menu_element_link   first-child child-0 menu-item-id-4 menu-item-parent-1 depth-0  </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

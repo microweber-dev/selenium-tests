@@ -24,7 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://slave01.ci.microweber.com:8080/')
+WebUI.navigateToUrl(GlobalVariable.test_site_url)
 
 WebUI.click(findTestObject('Page_Home/a_Shop'))
 

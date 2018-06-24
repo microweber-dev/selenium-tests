@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+login_test,Firefox 60.0,,2018-06-24 17:45:32,2018-06-24 17:45:43,11.420s,ERROR
+,,,,,,
+Test Cases/logged_in_user/test_login,Firefox 60.0,,2018-06-24 17:45:32,2018-06-24 17:45:38,6.179s,ERROR
+openBrowser,Firefox 60.0,,2018-06-24 17:45:32,2018-06-24 17:45:36,4.063s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 60.0,,2018-06-24 17:45:36,2018-06-24 17:45:36,0.008s,PASSED
+Statement - driver.manage().window().maximize(),Firefox 60.0,,2018-06-24 17:45:36,2018-06-24 17:45:37,0.342s,PASSED
+"Statement - baseUrl = test_site_url + ""/admin""",Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.001s,PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.063s,PASSED
+Statement - selenium.windowMaximize(),Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.008s,PASSED
+Statement - selenium.open(baseUrl),Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.425s,PASSED
+"Statement - For ([second = 0, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, (second++)])",Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.052s,PASSED
+"Statement - selenium.click(""name=username"")",Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.256s,PASSED
+"Statement - selenium.type(""name=username"", ""admin"")",Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.078s,PASSED
+"Statement - For ([second = 0, <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, (second++)])",Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:37,0.041s,PASSED
+"Statement - selenium.click(""name=password"")",Firefox 60.0,,2018-06-24 17:45:37,2018-06-24 17:45:38,0.238s,PASSED
+"Statement - selenium.type(""name=password"", ""password"")",Firefox 60.0,,2018-06-24 17:45:38,2018-06-24 17:45:38,0.077s,PASSED
+"Statement - selenium.click(""//input[@value='Login']"")",Firefox 60.0,,2018-06-24 17:45:38,2018-06-24 17:45:38,0.229s,PASSED
+"Statement - selenium.click(""link=Website"")",Firefox 60.0,,2018-06-24 17:45:38,2018-06-24 17:45:38,0.015s,PASSED
+,,,,,,
+Test Cases/logged_in_user/add_page,Firefox 60.0,,2018-06-24 17:45:38,2018-06-24 17:45:43,4.795s,FAILED
+openBrowser,Firefox 60.0,,2018-06-24 17:45:38,2018-06-24 17:45:41,2.520s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-24 17:45:41,2018-06-24 17:45:42,1.558s,PASSED
+acceptAlert,Firefox 60.0,,2018-06-24 17:45:42,2018-06-24 17:45:43,0.538s,FAILED
